@@ -1,0 +1,129 @@
+#root {
+  background-color: #AAC4E7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.head{
+  color: #EBEBDF;
+  z-index: 10;
+
+}
+
+.head .start-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quest{
+  color: #EBEBDF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  z-index: 10;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #EB631B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-back{
+  background-color: #EB631B;
+  position: absolute;
+  padding: 8rem;
+  border-radius: 0.475rem;
+  align-items: center;
+}
+
+.signuplink{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+.login-form input {
+  width: 130%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+.signup-form input{
+  width: 130%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.start-button{
+  z-index: 10;
+  cursor: pointer;
+}
+
+.login-button{
+  justify-content: center;
+  display: flex;
+}
+
+.get-location-button{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.login-sign{
+  color: #EBEBDF;
+  display: flex;
+  justify-content: center;
+}
+
+.location-dot{
+  display: flex;
+  justify-content: center;
+  color: #EB631B;
+}
+
+.start{
+  color: #000000;
+  font-size: 30px;
+}
+
+@keyframes logo-spin {
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
